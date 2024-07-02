@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog JaxWeb</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      background-image: url('bd.jpg'); 
+      background-size: cover; 
+      background-repeat: no-repeat; 
+      background-attachment: fixed; 
+      background-position: center; 
+    }
+    .navbar {
+      background: #00abf0;
+      color: white;
+    }
+    .nav-link {
+      color: white;
+    }
+    .logo {
+      background: rgba(129, 42, 173, 0.249);
+    }
+    .card {
+      margin: 20px;
+    }
+    /*Footer*/
+    .footer {
+			background-color: #1E90FF;
+			padding: 20px;
+			text-align: center;
+			margin-top: auto;
+		}
+
+		.footer .footer-info {
+			max-width: 800px;
+			margin: 0 auto;
+		}
+
+    /* Night mode styles */
+    body.night-mode {
+      background-color: #121212 !important;
+      background-image: none;
+      color: white;
+    }
+    .navbar.night-mode {
+      background: #333 !important;
+    }
+    .nav-link.night-mode {
+      color: white !important;
+    }
+    .card.night-mode {
+      background-color: #1e1e1e;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">JaxWeb</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html"><b>Home</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html"><b>About Us</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="blog.html"><b>Blog</b></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html"><b>Contact</b></a>
+        </li>
+        <li class="nav-item">
+          <button class="btn btn-secondary" id="toggleNightMode">
+            <i id="icon" class="fas fa-moon"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h1 class="mb-4 text-white">Mengapa Harus JaxWeb?</h1>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="logo.jpg" class="card-img-top" alt="News Image 1">
+          <div class="card-body">
+            <h5 class="card-title">Mengapa Harus JaxWeb</h5>
+            <p class="card-text">JaxWeb adalah tim pengembang fullstack yang berpengalaman dalam mengembangkan aplikasi web end-to-end. Mereka memiliki keahlian dalam front end, back end, dan integrasi sistem untuk menciptakan solusi web yang komprehensif. JaxWeb juga mementingkan kualitas dan kuantitas untuk website klien.</p>
+            <h2><a href="http://127.0.0.1:5500/PORTO/PORTO/about.html">Go To About Us</a></h2>
+            <small class="text-muted text-right d-block mt-2">12 jam yang lalu</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="web.jpeg" class="card-img-top" alt="web">
+          <div class="card-body">
+            <h5 class="card-title">Mengapa Perusahaan Harus Memiliki Web?</h5>
+            <p class="card-text">Dalam era digital yang terus berkembang, memiliki keberadaan online menjadi kunci kesuksesan bagi bisnis di berbagai industri. Salah satu aspek yang sangat penting dalam membangun keberadaan online adalah memiliki website resmi. Berikut adalah beberapa alasan mengapa setiap bisnis perlu memiliki website:</p>
+            <p class="para">1. Meningkatkan Kredibilitas</p>
+            <p class="para">2. Jangkauan Global</p>
+            <p class="para">3. Pemasaran Efektif</p>
+            <p class="para">4. Kemudahan Akses Informasi</p>
+            <a href="#" class="btn btn-primary">baca lainnya</a>
+            <small class="text-muted text-right d-block mt-2">4 hari yang lalu</small>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="blog1.png" class="card-img-top" alt="News Image 3">
+          <div class="card-body">
+            <h5 class="card-title">Apa Itu UI/UX</h5>
+            <p class="card-text">UX adalah desain yang berfokus pada interaksi pengguna ketika mengakses website atau aplikasi. UI adalah desain yang fokus pada estetika. Desainernya memastikan bahwa website atau aplikasi tampil menarik sehingga pengguna ingin kembali lagi.</p>
+            <a href="#" class="btn btn-primary">baca lainnya</a>
+            <small class="text-muted text-right d-block mt-2">seminggu yang lalu</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+		<footer>
+			<div class="footer-info">
+				<p style="color: aliceblue;">&copy; 2024 JaxWeb. Semua hak dilindungi undang-undang.</p>
+				<p style="color: aliceblue;">Alamat: Jl.RingRoad Utara PERUMNAS Condong Catur Kabupaten Seleman DIY</p>
+				<p style="color: aliceblue;">Email: JaxWebStudio@gmail.com | Telepon: (021) 123-4567</p>
+				<p style="color: aliceblue;">
+					Ikuti kami:
+					<a style="color: black;" href="https://facebook.com">Facebook</a> |
+					<a style="color: black;" href="https://twitter.com">Twitter</a> |
+					<a style="color: black;" href="https://instagram.com">Instagram</a>
+				</p>
+			</div>
+		</footer>
+	</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    document.getElementById('toggleNightMode').addEventListener('click', function() {
+      document.body.classList.toggle('night-mode');
+      document.querySelector('.navbar').classList.toggle('night-mode');
+      document.querySelectorAll('.nav-link').forEach(function(element) {
+        element.classList.toggle('night-mode');
+      });
+      document.querySelectorAll('.card').forEach(function(element) {
+        element.classList.toggle('night-mode');
+      });
+      var icon = document.getElementById('icon');
+      if (icon.classList.contains('fa-moon')) {
+        icon.classList.remove('fa-moon');
+        icon.classList.add('fa-sun');
+      } else {
+        icon.classList.remove('fa-sun');
+        icon.classList.add('fa-moon');
+      }
+    });
+  </script>
+</body>
+</html>
